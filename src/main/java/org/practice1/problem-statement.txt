@@ -1,0 +1,1 @@
+Create a program that checks if numbers in a given range are prime. First, implement this using Thread and Runnable. Then, convert the program to use ExecutorService.
