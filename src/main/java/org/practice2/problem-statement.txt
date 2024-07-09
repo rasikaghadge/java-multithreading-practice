@@ -1,0 +1,8 @@
+Implement a task scheduler using ScheduledThreadPoolExecutor
+Compare performance between FixedThreadPool and CachedThreadPool
+
+FixedThreadPool execution time: 1104 ms
+CachedThreadPool execution time: 145 ms
+
+CachedThreadPool:
+Creating of new threads is not limited, it is only limited till memory supports creating new threads. If any thread is created but is in an idle state for more than 60 seconds, the thread will get terminated from the thread pool
